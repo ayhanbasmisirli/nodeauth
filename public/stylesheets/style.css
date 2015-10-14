@@ -1,8 +1,41 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+body
+{
+    font: Arial, sans-serif;
+
+    padding: 50px;
 }
 
-a {
-  color: #00B7FF;
+a
+{
+    color: #00b7ff;
+}
+ul.success li,
+ul.info li,
+ul.error li
+{
+    margin: 20px 0 20px 0 ;
+    padding: 15px;
+
+    list-style: none;
+
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+ul.success li
+{
+    color: black;
+    border-color: black;
+    background: #DFF0D8;
+}
+ul.info li
+{
+    color: black`;
+    border-color: black;
+    background: #D9EDF7;
+}
+ul.error li
+{
+    color: black;
+    border-color: black;
+    background: #D9EDF7;
 }
